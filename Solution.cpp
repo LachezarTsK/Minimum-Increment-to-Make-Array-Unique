@@ -28,7 +28,7 @@ public:
     }
 
 private:
-    int sumAllValuesFromOneToN(int n)const {
+    int sumAllValuesFromOneToN(int n) const {
         return n * (n + 1) / 2;
     }
 };
